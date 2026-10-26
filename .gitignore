@@ -8,3 +8,13 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Project data
+data/raw/*.csv
+data/warehouse/*.duckdb
+data/warehouse/*.sqlite
+Dataset-*/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
